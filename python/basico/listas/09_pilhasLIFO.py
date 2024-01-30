@@ -1,5 +1,6 @@
 '''
-    PRINCIPIOS DE PILHA
+    PRINCIPIOS DE PILHA 
+    PILHA LIFO (Last In First Out): ultimo a entrar primeiro a sair
 '''
 
 # criacao da primeira lista
@@ -15,7 +16,6 @@ frutas.extend(frutas2)
 print(f"\nLISTA INICIAL \n{frutas}\n")
 
 # LAST IN FIRST OUT
-
 print('ultimo a entrar primeiro a sair')
 frutas.pop()
 print(frutas)

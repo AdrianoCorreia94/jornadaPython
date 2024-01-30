@@ -1,0 +1,26 @@
+from collections import deque
+
+'''
+    FIFO - First In First Out: primeiro a entrar primeiro a sair
+    Necessita do modulo Collections - deque
+'''
+
+# criacao da primeira lista
+frutas = deque(['Manga', 'Uva', 'Abacate', 'Banana', 'Caqui'])
+
+# criacao da segunda lista para adicionar a primeira
+frutas2 = deque(['Morango', 'Abacaxi', 'Acai', 'Laranja', 'Limao'])
+
+# adicionar lista secundaria à primeira
+frutas.extend((frutas2))
+
+
+print(f'FILA ORIGINAL {frutas}')
+# FIRST IN FIRST OUT
+print('PRIMEIRO A ENTRAR PRIMEIRO A SAIR')
+frutas.popleft()
+print(frutas)
+frutas.popleft()
+print(frutas)
+frutas.popleft()
+print(frutas)
