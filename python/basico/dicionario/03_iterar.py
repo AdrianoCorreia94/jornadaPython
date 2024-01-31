@@ -15,3 +15,11 @@ for y in quadrados.keys():
 # iterando sobre os valores
 for v in quadrados.values():
     print(v)
+
+# enumerando as chaves
+for e, k in enumerate(quadrados.keys()):
+    print(e, k)
+
+# enumerando os valores
+for e, v in enumerate(quadrados.values()):
+    print(e, v)
